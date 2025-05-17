@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>معلومات الاتصال</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 50px;
+        }
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        a {
+            color: #d35400;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>تواصل معنا</h2>
+        <p>📧 الإيميل: <a href="mailto:Qashtasweets@gmail.com">Qashtasweets@gmail.com</a></p>
+        <p>📞 الهاتف: <a href="tel:0687829911">0687829911</a></p>
+        <p>📷 إنستغرام: <a href="https://instagram.com/qashta2025" target="_blank">qashta2025</a></p>
+    </div>
+</body>
+</html>
