@@ -3,50 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Qashta - Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             background-color: #fefefe;
-            padding: 30px;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
+
         .container {
             background-color: white;
             border-radius: 12px;
             padding: 20px;
             box-shadow: 0 0 8px rgba(0,0,0,0.1);
-            display: inline-block;
-            max-width: 320px;
+            width: 100%;
+            max-width: 400px;
         }
-    .product-image {
-    width: 40%;
-    max-width:40%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
+
+        .product-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
         a {
             color: #d35400;
             text-decoration: none;
             font-weight: bold;
         }
+
         p {
             font-size: 16px;
             margin: 10px 0;
         }
+
         h2 {
             margin-bottom: 20px;
-            font-size: 20px;
+            font-size: 22px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-      <img src="qashta.jpg" alt="Qashta dessert" class="product-image">
-
+        <img src="qashta.jpg" alt="Qashta dessert" class="product-image">
         <h2>Neem contact met ons op</h2>
         <p>📞 <a href="tel:0687829911">0687829911</a></p>
         <p>📷 <a href="https://instagram.com/qashta2025" target="_blank">@qashta2025</a></p>
-        <p>📧 E-mail: <a href="mailto:Qashtasweets@gmail.com">Qashtasweets@gmail.com</a></p>
         <p style="margin-top:20px;">Bedankt voor het bezoeken van onze pagina!</p>
     </div>
 </body>
